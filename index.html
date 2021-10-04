@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer-stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dateAndClock">
+            <p class="date"></p>
+            <p class="clock"></p>
+        </div>
+        <div class="stopwatch">
+            <div class="startWatch">
+                <p class="secundomer">00:00:00:000</p>
+                <div class="secButton">
+                    <button class="secStart butStyle">START</button>
+                    <button class="secLoop butStyle">LOOP</button>
+                    <button class="secStop butStyle">STOP</button>
+                    <button class="secRESET butStyle">RESET</button>
+                </div>
+            </div>
+            <div class="watch"></div>
+        </div>
+        <div class="timer">
+            <div class="setTimer">
+                <p class="number">25</p>
+                <p class="minutes">MINUTES</p>
+                <div class="plusMinus">
+                    <button class="plus butStyle2">+</button>
+                    <button class="minus butStyle2">-</button>
+                </div>
+            </div>
+            <div class="watchTimer">
+                <p class="timerLost">00:00</p>
+                <div class="timerButton">
+                    <button class="timStart butStyle">START</button>
+                    <button class="timStop butStyle">STOP</button>
+                    <button class="timRESET butStyle">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
